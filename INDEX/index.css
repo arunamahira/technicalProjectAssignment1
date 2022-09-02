@@ -1,0 +1,45 @@
+
+@font-face {
+  font-family:'Marga';
+  src: url('Marga\ DEMO.ttf');
+  }
+
+@font-face {
+  font-family:'Montserrat';
+  src: url('Montserrat-Regular.otf')
+}
+
+@font-face {
+  font-family:'Dosis';
+  src: url('Dosis-Medium.ttf')
+}
+
+header {
+    font-family: 'Montserrat';
+  }
+
+p {
+  font-family: 'Dosis';
+}
+h1 {
+    color:#ffffff;
+    font-family: 'Marga'; font-size: 80px;
+  }
+
+h5 {
+  color: rgb(255, 255, 255);
+  font-family: 'Montserrat'
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
