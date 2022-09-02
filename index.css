@@ -1,0 +1,158 @@
+
+@font-face {
+  font-family:'Marga';
+  src: url('Marga\ DEMO.ttf');
+  }
+
+@font-face {
+  font-family:'Montserrat';
+  src: url('Montserrat-Regular.otf')
+}
+
+@font-face {
+  font-family:'Dosis';
+  src: url('Dosis-Medium.ttf')
+}
+
+/* fonts */
+p {
+  font-family: 'Dosis'; font-size: 2vw;
+}
+
+h1 {
+    color:#ffffff;
+    font-family: 'Marga'; font-size: 8vw
+  }
+
+h3 {
+  color: black;
+  font-family: 'Marga';
+  font-size: 3vw;
+}
+
+h5 {
+  color: rgb(255, 255, 255);
+  font-family: 'Montserrat'
+}
+
+h6 {
+  color: rgb(0, 0, 0);
+  font-family: 'Montserrat'
+}
+
+/* center blog */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  text-align: center;
+  color:rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* header */
+header {
+  font-family: 'Montserrat';
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #eebd7d;
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* color of hover */
+li a:hover {
+  background-color: #f5e2c8;
+}
+
+div.a {
+  text-align: center;
+}
+
+/* align images */
+.parent{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.child{
+  flex-basis: 33.33%;
+  width: 300px; height: 337px; object-fit: cover;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.child img{
+width: 100%;
+}
+
+/* teks tengah kiri kanan */
+.alignleft {
+  margin: left;
+  width:33.33333%;
+  text-align:left;
+  text-decoration: underline;
+}
+.aligncenter {
+  margin: left;
+  width:33.33333%;
+  text-align:center;
+  text-decoration: underline;
+  
+}
+.alignright {
+  margin: left;
+  width:33.33333%;
+  text-align:right;
+  text-decoration: underline;
+}
+
+/* foto aku sebelah kanan, rounded */
+.container2 { 
+  width:20vw;
+  height: 20vw; 
+  display: flex; 
+  margin: left;
+  width: 25%;
+  padding-left: 20px;
+} 
+
+.container2 div { 
+  flex-basis: 65%;
+  object-fit: cover;
+  box-sizing: border-box; 
+  } 
+
+.container2 img {
+    border-radius: 50%;
+}
+
+.alignright2 {
+  margin: left;
+  width:33.33333%;
+  text-align:left;
+}
